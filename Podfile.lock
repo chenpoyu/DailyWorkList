@@ -1,0 +1,39 @@
+PODS:
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - ChartsRealm (3.1.1):
+    - Charts (~> 3.1.1)
+    - RealmSwift (~> 3.7.1)
+  - Realm (3.7.6):
+    - Realm/Headers (= 3.7.6)
+  - Realm/Headers (3.7.6)
+  - RealmSwift (3.7.6):
+    - Realm (= 3.7.6)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+
+DEPENDENCIES:
+  - Charts
+  - ChartsRealm
+  - SQLite.swift (~> 0.11.5)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Charts
+    - ChartsRealm
+    - Realm
+    - RealmSwift
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  ChartsRealm: 35728e98e8d365a45c54fa7a1fa47663d2539887
+  Realm: 9eaecad54712d6246d08ba34c10f354e4715d7d3
+  RealmSwift: 1fe08b4ebaeeaacf17f9ba0343f7b25c9fc31fa6
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+
+PODFILE CHECKSUM: 93fbc38a7320500545586babdd8956d28cfab9f5
+
+COCOAPODS: 1.5.0
